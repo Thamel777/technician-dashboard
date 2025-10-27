@@ -167,7 +167,7 @@ function openUpdateModal(reportId) {
         document.getElementById('status').value = report.status;
     });
 
-    modal.style.display = 'block';
+    modal.style.display = 'flex';
 }
 
 function updateTaskStatus(reportId, status) {
